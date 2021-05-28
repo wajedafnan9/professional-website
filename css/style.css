@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+/*======== HEADER SECTION ==========*/
+.header-section {
+    height: 80vh;
+}
+.continer {
+    width: 75%;
+    margin: auto;
+}
+.man-bav {
+    float: right;
+}
+.man-bav ul {
+    list-style-type: none;
+}
+.man-bav ul li {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+.man-bav ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+.man-bav ul li a:hover {
+    color:hsla(12, 98%, 55%, 0.993);
+}
+.header-description-area {
+    width: 48%;
+    float: left;
+    margin-top: 10rem;
+}
+.header-description-area h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.title-color {
+    color: #ff8367;
+}
+.header-description-area p {
+    margin-top: 2rem;
+    width: 22rem;
+    font-size: 1.2rem;
+}
+.btn {
+    padding: .8rem 1.8rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border: none;
+    background: hsla(12, 98%, 55%, 0.993);
+    color: #fff;
+    border-radius: .3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.header-images-area {
+    width: 48%;
+    float: right;
+    
+}
+.header-images-area img {
+    width: 100%;
+}
+/*======== ABOUT SECTION ==========*/
+
+.about-images {
+    width: 48%;
+    float: left;
+    margin-bottom: 3rem;
+}
+.about-images img {
+    width: 80%;
+}
+.about-desciption {
+    width: 48%;
+    float: right;
+    margin-top: 4rem;
+}
+.about-desciption h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.about-desciption p {
+    width: 33rem;
+    margin-top: 2rem;
+}
+
+/*======== WORK SECTION ==========*/
+
+.work-section {
+    background: #f8f9fc;
+}
+.work-title h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 4rem 0;
+}
+.work-box {
+    width: 20rem;
+    float: left;
+    padding: 1rem 1rem;
+    background: #fff;
+    border-radius: .3rem;
+    margin-right: 2.5rem;
+    margin-bottom: 4rem;
+    box-shadow: 2px 5px 19px;
+}
+.work-box:last-child {
+    margin-right: 0;
+}
+.work-box img {
+    width: 100%;
+}
+.work-description h3 {
+    padding: 1rem 0;
+}
+/*======== FOOTER SECTION ==========*/
+
+.footer-images {
+    background: url(../shapes/Group_33094_1.png);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    width: 80%;
+    margin: 6rem auto;
+    
+}
+.work-image-title {
+    width: 50%;
+    float: left;
+    padding: 5.2rem 3rem;
+    
+}
+.work-image-title h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.footer-images  button {
+    float: right;
+    margin-top: 6rem;
+    margin-right: 4rem;
+}
+.footer-icons {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.footer-icons h3 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: gray;
+    text-transform: uppercase;
+}
+.footer-icons a {
+    text-decoration: none;
+    color: black;
+}
+.social-icons ul {
+    list-style-type: none;
+}
+.social-icons ul li {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+.social-icons ul li a {
+    color: red;
+}
